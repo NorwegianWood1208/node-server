@@ -1,0 +1,9 @@
+1、用户管理
+
+getUserList: 'api/getUserList'
+
+id: ''
+realName: '用户姓名'
+desc:'用户备注'
+creatId:'创建id'
+createTime: '创建时间'
