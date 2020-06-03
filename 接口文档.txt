@@ -7,3 +7,25 @@ realName: '用户姓名'
 desc:'用户备注'
 creatId:'创建id'
 createTime: '创建时间'
+
+2、角色表
+
+getUserList: 'api/getRoleList'
+
+id: ''
+roleName: '用户姓名'
+desc:'用户备注'
+creatId:'创建id'
+createDate: '创建时间'
+deleteFlag: '使用状态' 0 使用中 1 停用
+
+3、菜单管理
+
+getMenuList: 'api/getMenuList'
+
+id: ''
+title: '用户姓名'
+menuName:'用户备注'
+path:'创建id'
+component: '创建时间'
+hidden: Y隐藏 N 显示
