@@ -274,4 +274,6 @@ samp_db 数据库: drop database samp_db;
 项目做到这儿，写几个增删改查的接口没啥问题了，但是如果想系统的搭建一个项目的架构，可能还需要很多的组件、工具
 
 比如日志、获取请求参数的body-parser、实现ORM的sequelize等等
-    
+
+欢迎关注公众号，交流前端与node！
+![](https://user-gold-cdn.xitu.io/2020/5/20/1722fd0dc40328f1?w=258&h=258&f=jpeg&s=27365)
