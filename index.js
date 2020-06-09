@@ -7,7 +7,9 @@ var express = require('express');
 var app = express();
 var winston =require('winston');
 var expressWinston =require('express-winston');
-
+var bodyparser = require('body-parser');
+app.use(bodyparser.urlencoded({ extended: true }));
+app.use(bodyparser.json())
 
 // 正常请求的日志
 app.use(expressWinston.logger({

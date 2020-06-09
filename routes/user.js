@@ -3,12 +3,11 @@ var api  = express.Router();
 var db = require("../config/sql")
 
 api.post('/getUserList', function (req, res) {
-    var sql = 'SELECT * FROM sys_role WHERE realname = ?'
-    console.log(req)
-    var req_value = [req.query.realname]
+    var sql = `SELECT * FROM sys_user WHERE userid = ?`
+    var req_value = [req.body.userid]
     db.query(sql, req_value, (err, results, fields) => {
         if(err){
-            res.json({
+            return res.json({
                 code: '1000',
                 message: err
             })
